@@ -1,8 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     background-color: aqua;
     font-family: sans-serif;
     font-weight: 300;
+    position: relative;
+    min-height: 100vh;
 }
 
 /* head nav styles */
@@ -21,6 +28,7 @@ header::after {
 header h1 {
     float: left;
     color: aqua;
+    padding-top: 15px;
 }
 header nav {
     float: right;
@@ -33,7 +41,7 @@ header nav ul {
 header nav ul li {
     display: inline-block;
     margin-left: 80px;
-    padding-top: 30px;
+    padding: 20px 0 20px 0;
 }
 header nav ul li a {
     color: aqua;
@@ -46,3 +54,30 @@ header nav ul li a:hover {
 }
 /* end of my nav styles */
 
+/* start of my footer section */
+.footer-container {
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: auto;
+    box-sizing: border-box;
+    background-color: coral;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+footer div {
+    display: block;
+    margin: 0 auto;
+    height: 100%;
+}
+
+footer h2 {
+    color: aqua;
+    font-size: 20px;
+    padding: 50px 0 0 30px;
+}
+footer p {
+    float: right;
+    padding: 0 30px 40px 0;
+}
