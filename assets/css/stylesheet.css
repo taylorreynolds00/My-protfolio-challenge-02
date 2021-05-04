@@ -64,8 +64,18 @@ header nav ul li a:hover {
     color: red;
 }
 /* end of my nav styles */
-.
-
+.about-me {
+    float: left;
+    margin: 0 15px 15px 50px;
+}
+.about-me img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    border: 3px solid coral;
+    float: right;
+    margin: -30px 15px 0 100px;
+}
 .progress-section {
    margin-bottom: 20px 0 140px 0;
 }
