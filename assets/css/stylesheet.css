@@ -24,8 +24,7 @@ body {
     padding: 10px 20px 50px 10px;
 }
 header  {
-    background-image: url("https://www.globosurfer.com/wp-content/uploads/2018/06/Best_Sunscreen_for_Surfing_and_Watersports.jpg");
-    background-size: cover;
+   background-color: midnightblue;
     border-bottom: 3px solid coral;
 }
 header::after {
@@ -150,6 +149,7 @@ header nav ul li a:hover {
     font-size: 30px;
     clear: both;
     text-align: center;
+    overflow: hidden;
  }
  .progress-section h2 {
      text-shadow: 2px 0 0 coral;
@@ -159,9 +159,7 @@ header nav ul li a:hover {
      height: 400px;
      margin: 0 0 0 0;
  }
- .placeholder-style {
-    
- }
+ 
 /* end of progress style */
 
 /* start of my footer section */
@@ -172,8 +170,7 @@ header nav ul li a:hover {
     position: absolute;
     bottom: 0;
     width: 100%;
-    background-image: url("https://cdn.vox-cdn.com/thumbor/fOxnZrVEb2eeCgkmWqt-P9KXxsQ=/0x0:4032x3024/920x613/filters:focal(1694x1190:2338x1834):format(webp)/cdn.vox-cdn.com/uploads/chorus_image/image/67688830/Snowboards_top_photo.0.jpg");
-    background-size: cover;
+  background-color: midnightblue;
     margin-bottom: -1050px;
     border-top: 3px solid coral;
 }
@@ -193,3 +190,24 @@ footer p {
     padding: 0 30px 40px 0;
 }
 /* end of footer section */
+@media (max-width: 1125px) {
+    .progress-section {
+        margin-top: -60px;
+        clear: both;
+        background-color: slategrey;
+        height: 1350px;
+    }
+    .progress-section img {
+        margin: 6px 0 6px 0;
+        border: 3px solid coral;
+        
+    }
+    .footer-container {
+        margin-bottom: -1500px;
+    }
+    body {
+        height: -300px;
+        width: -600px;
+       clear: both;
+    }
+}
