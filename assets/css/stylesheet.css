@@ -158,6 +158,7 @@ header nav ul li a:hover {
      width: 550px;
      height: 400px;
      margin: 0 0 0 0;
+     border: 3px solid coral;
  }
  
 /* end of progress style */
@@ -191,23 +192,124 @@ footer p {
 }
 /* end of footer section */
 @media (max-width: 1125px) {
+    header div h1 {
+        padding-left: 375px;
+    }
+    .navigation {
+        padding-right: 210px;
+    }
     .progress-section {
         margin-top: -60px;
         clear: both;
         background-color: slategrey;
-        height: 1350px;
+        height: 1500px;
     }
     .progress-section img {
         margin: 6px 0 6px 0;
         border: 3px solid coral;
-        
     }
+    .progress-section h2 {
+        border-top: 3px solid coral;
+    }
+  
     .footer-container {
-        margin-bottom: -1500px;
+        margin-bottom: -1600px;
     }
     body {
         height: -300px;
         width: -600px;
-       clear: both;
+        clear: both;
+    }
+}
+@media (max-width: 999px) {
+    header div h1 {
+        padding-left: 300px;
+        
+    }
+    header div ul {
+       margin-right: -45px;
+    }
+    .contact-me {
+        padding-left: 350px;
+        text-align: center;
+    }
+    .footer-container {
+        margin-bottom: -1700px;
+    }
+
+}
+@media (max-width: 810px) {
+    header div h1 {
+        padding-left: 275px;
+    }
+   
+    .navigation {
+        margin-left: -35px;
+        padding: 0 0 50px 0;
+        
+    }
+    .contact-me {
+        text-align: center;
+        padding-left: 250px;
+    }
+    .progress-section {
+
+    }
+    .footer-container {
+        margin-bottom: -1650px;
+    }
+}
+@media (max-width: 768px) {
+    header div ul {
+        padding-right: 40px;
+    }
+}
+@media (max-width: 415px) {
+    body {
+        clear: both;
+    }
+    .container {
+        padding-right: 120px;
+    }
+    .container img {
+        border-radius: 0;
+    }
+    .about-me {
+        padding-left: 60px;
+        margin: 5px 5px 15px 5px;
+    }
+    .github {
+       padding-left: 60px; 
+       margin: 5px 5px 5px 5px;
+    }
+    .github p {
+        margin: 5px 5px 5px 5px;
+        clear: both;
+    }
+    .contact-me {
+        padding-left: 50px;
+        margin: 5px 5px 5px 5px;
+        clear: both;
+        
+    }
+    .progress-section {
+        height: 1250px;
+        margin: 5px 5px -200px 5px;
+        padding-bottom: -200px;
+        overflow: hidden;
+    }
+    .progress-section div {
+        
+    }
+   
+    .progress-section h2 {
+        font-size: 20px;
+    }
+    .progress-section img {
+        height: 300px;
+        width: 300px;
+    }
+    .footer-container {
+        margin: 0 0 -1750px 0;
     }
 }
